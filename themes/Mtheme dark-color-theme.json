@@ -5,7 +5,19 @@
 		"editor.background": "#2a2d43",
 		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#212121",
+		"activityBar.background": "#2a2d43",
+		"activityBar.activeBackground": "#1d3557",
+		"titleBar.activeBackground": "#2a2d43",
+		"menu.background": "#2a2d43",
+		"tab.inactiveBackground": "#1d3557",
+		"titleBar.inactiveBackground": "#2a2d43",
+		"editor.findMatchBackground": "#2b7fde",
+		"editor.findMatchHighlightBackground": "#29b6",
+		"sideBar.foreground": "#ffffff",
+		"titleBar.activeForeground": "#ffffff",
+		"editor.lineHighlightBackground": "#363b5a"
 	},
 	"tokenColors": [
 		{
@@ -49,14 +61,22 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": " Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#00b0ff"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -183,7 +203,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#76ff03"
 			}
 		},
 		{
@@ -256,7 +276,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#b46dff"
 			}
 		},
 		{

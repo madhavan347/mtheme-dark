@@ -2,8 +2,8 @@
 	"name": "Mtheme dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#2a2d43",
+		"editor.foreground": "#ffffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -15,8 +15,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"fontStyle": "italic bold",
+				"foreground": "#628392"
 			}
 		},
 		{
@@ -56,7 +56,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#00b0ff"
 			}
 		},
 		{
@@ -64,6 +64,16 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#e91e63"
+			}
+		},
+		{
+			"name": "operator",
+			"scope": [
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
@@ -72,11 +82,9 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ffffff",
 			}
 		},
 		{
@@ -87,20 +95,28 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ff474e"
 			}
 		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#76ff03"
+			}
+		},
+		{
+			"name":"Function",
+			"scope": [
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#00b0ff"
 			}
 		},
 		{
@@ -135,7 +151,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ff9100"
 			}
 		},
 		{
@@ -150,7 +166,8 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#ffee00",
+				"fontStyle": "italic"
 			}
 		},
 		{

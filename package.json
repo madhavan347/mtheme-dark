@@ -1,10 +1,15 @@
 {
     "name": "mtheme-dark",
     "displayName": "Mtheme",
-    "description": "Customised for my preference",
+    "description": "This is customised vscode theme based on monokai.",
     "version": "0.0.1",
+    "publisher": "MS-corp",
     "engines": {
         "vscode": "^1.56.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/madhavan347/mtheme-dark.git"
     },
     "categories": [
         "Themes"
